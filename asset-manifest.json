@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/demoButtons/static/css/main.07decaf3.chunk.css",
+    "main.js": "/demoButtons/static/js/main.dc9b12b8.chunk.js",
+    "main.js.map": "/demoButtons/static/js/main.dc9b12b8.chunk.js.map",
+    "runtime-main.js": "/demoButtons/static/js/runtime-main.565cb2e2.js",
+    "runtime-main.js.map": "/demoButtons/static/js/runtime-main.565cb2e2.js.map",
+    "static/js/2.edf59a35.chunk.js": "/demoButtons/static/js/2.edf59a35.chunk.js",
+    "static/js/2.edf59a35.chunk.js.map": "/demoButtons/static/js/2.edf59a35.chunk.js.map",
+    "static/js/3.de1d450e.chunk.js": "/demoButtons/static/js/3.de1d450e.chunk.js",
+    "static/js/3.de1d450e.chunk.js.map": "/demoButtons/static/js/3.de1d450e.chunk.js.map",
+    "index.html": "/demoButtons/index.html",
+    "static/css/main.07decaf3.chunk.css.map": "/demoButtons/static/css/main.07decaf3.chunk.css.map",
+    "static/js/2.edf59a35.chunk.js.LICENSE.txt": "/demoButtons/static/js/2.edf59a35.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.565cb2e2.js",
+    "static/js/2.edf59a35.chunk.js",
+    "static/css/main.07decaf3.chunk.css",
+    "static/js/main.dc9b12b8.chunk.js"
+  ]
+}
