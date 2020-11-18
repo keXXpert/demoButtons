@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <h1>Your HTML here</h1>
-      <a href='/upwork_test/sample.pdf' ref={downloadRef} target='_blank'>Download pdf</a>
+      <a href='/%PUBLIC_URL%/sample.pdf' ref={downloadRef} target='_blank'>Download pdf</a>
       <a href='https://www.youtube.com/watch?v=Ut4KlWUA5TI' ref={openRef} rel="noreferrer" target='_blank'>Open youtube</a>
       <button onClick={() => downloadRef.current.click()}>Download PDF</button>
       <button onClick={() => openRef.current.click()}>Open Youtube</button>
