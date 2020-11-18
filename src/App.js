@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import { useRef } from "react";
 
 function App() {
+  const downloadRef = useRef(null)
+  const openRef = useRef(null)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Your HTML here</h1>
+      <a href='/upwork_test/sample.pdf' ref={downloadRef} target='_blank'>Download pdf</a>
+      <a href='https://www.youtube.com/watch?v=Ut4KlWUA5TI' ref={openRef} rel="noreferrer" target='_blank'>Open youtube</a>
+      <button onClick={() => downloadRef.current.click()}>Download PDF</button>
+      <button onClick={() => openRef.current.click()}>Open Youtube</button>
     </div>
   );
 }
